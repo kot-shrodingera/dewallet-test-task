@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Inter", system-ui, sans-serif;
+  }
+
+  body {
+    @apply text-dark dark:text-white text-[18px]/[1.2] xl:text-[20px]/[1.2] font-normal;
+  }
+
+  h1 {
+    @apply text-[46px]/[1.1] xl:text-[80px]/[1.1] font-[629];
+  }
+}
